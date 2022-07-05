@@ -1,0 +1,138 @@
+/* Modules */
+.logo-module
+{
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text-module 
+{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	text-align: left;
+	width: 30%;
+	color: white;
+}
+
+/* Container holding the image and the text */
+.header-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+a {
+    color: orange;
+}
+
+a:visited {
+    color: orangered;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+
+/* Bootstrap Overrides */
+.nav-item .nav-link.active {
+    color: orange;
+    font-weight: bold;
+}
+
+a.navbar-brand {
+    color: darkgray;
+}
+
+a.navbar-brand:hover {
+    color: darkgray;
+}
+
+a.nav-link {
+	color: black;
+}
+
+a.nav-link:visited {
+	color: black;
+}
+
+a.nav-link:hover {
+    color: orangered;
+}
+
+a.dropdown-item:visited {
+	color: black;
+}
+
+.btn-outline-secondary
+{
+	color: orange;
+	border-color: orange;
+}
+
+.btn-outline-secondary:focus
+{
+	color: white;
+	border-color: orangered;
+	background-color: orangered;
+}
+
+.btn-outline-secondary:hover
+{
+	color: white;
+	border-color: orange;
+	background-color: orange;
+}
+
+.dropdown-item:focus {
+    background-color: orangered;
+}
+
+.dropdown-item.active {
+    background-color: white;
+    color: orange;
+}
+
+/* Extras */
+.overlay-50
+{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.overlay-70
+{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+/* Anim */
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
